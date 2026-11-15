@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing?style=flat-square&color=blue" alt="GitHub issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
@@ -74,84 +74,84 @@ Commercial, cloud-hosted Online Discussion Forum and Knowledge Sharing platforms
 Self-hosted, community-driven Online Discussion Forum and Knowledge Sharing tools. Ranked in **descending order by GitHub stargazers count** ⭐:
 
 ### 1. Discourse 💬
-[![GitHub stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers)
 - **Repository:** [discourse/discourse](https://github.com/discourse/discourse)
 - **Stack:** Ruby on Rails / PostgreSQL / Redis / Ember.js | **License:** GPL-2.0-or-later
 - **Overview:** Discourse is the gold standard for modern open-source community discussion platforms. Designed for durable, searchable, high-signal conversations with infinite scrolling, real-time notifications, dynamic trust levels, rich markdown/WYSIWYG editing, OAuth2/custom SSO, and comprehensive APIs.
 - **Best for:** Professional communities, developer ecosystems, and enterprises seeking a battle-tested, highly extensible discussion platform.
 
 ### 2. Forem 🌐
-[![GitHub stars](https://img.shields.io/github/stars/forem/forem?style=social&color=white)](https://github.com/forem/forem/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/forem/forem?style=social&color=white)](https://github.com/forem/forem/stargazers)
 - **Repository:** [forem/forem](https://github.com/forem/forem)
 - **Stack:** Ruby on Rails / PostgreSQL / Redis / Preact | **License:** AGPL-3.0
 - **Overview:** The open-source software powering DEV.to and numerous global developer networks. Combines threaded discussion forums with rich article publishing, member feeds, podcasts, listings, and social community features in one unified hub.
 - **Best for:** Content-driven developer communities, collaborative blogging networks, and social knowledge hubs.
 
 ### 3. Flarum ⚡
-[![GitHub stars](https://img.shields.io/github/stars/flarum/flarum?style=social&color=white)](https://github.com/flarum/flarum/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/flarum/flarum?style=social&color=white)](https://github.com/flarum/flarum/stargazers)
 - **Repository:** [flarum/flarum](https://github.com/flarum/flarum)
 - **Stack:** PHP / MySQL / Mithril.js | **License:** MIT
 - **Overview:** Flarum is a lightweight, mobile-first discussion platform with a modern, elegant two-pane interface. It features instant search, smooth infinite scrolling, floating composer windows, and an extensive modular extension architecture.
 - **Best for:** Small to mid-sized communities wanting a fast, aesthetically pleasing forum with minimal server overhead.
 
 ### 4. Apache Answer 💡
-[![GitHub stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers)
 - **Repository:** [apache/answer](https://github.com/apache/answer)
 - **Stack:** Go / React / Docker | **License:** Apache-2.0
 - **Overview:** An official Apache Software Foundation top-level project designed specifically for Q&A community platforms, help desks, and team knowledge bases. It features upvoting, reputation mechanics, badge gamification, tag categorization, and rapid one-command Docker deployments.
 - **Best for:** Teams and developer portals needing a lightweight, Apache-licensed Stack Overflow alternative for knowledge management.
 
 ### 5. NodeBB 🚀
-[![GitHub stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers)
 - **Repository:** [NodeBB/NodeBB](https://github.com/NodeBB/NodeBB)
 - **Stack:** Node.js / Redis / MongoDB / Socket.io | **License:** GPL-3.0
 - **Overview:** NodeBB leverages WebSockets for real-time interactions, offering streaming discussions, instant live notifications, built-in chat, social sharing, and an active ecosystem of themes and plugins.
 - **Best for:** Node.js-centric teams seeking a reactive, real-time community forum with seamless API integration.
 
 ### 6. Lemmy 🪐
-[![GitHub stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers)
 - **Repository:** [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy)
 - **Stack:** Rust / Actix / PostgreSQL / WebAssembly | **License:** AGPL-3.0
 - **Overview:** A federated, link-aggregating discussion platform for the ActivityPub fediverse (a decentralized alternative to Reddit). Supports nested comments, voting, community moderation tools, and cross-server federation.
 - **Best for:** Decentralized, privacy-conscious communities and open-web link aggregator forums.
 
 ### 7. HumHub 👥
-[![GitHub stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers)
 - **Repository:** [humhub/humhub](https://github.com/humhub/humhub)
 - **Stack:** PHP (Yii 2) / MySQL / MariaDB | **License:** AGPL-3.0
 - **Overview:** A flexible social network and community kit providing discussion streams, user spaces, knowledge wikis, file sharing, calendar scheduling, and an internal module marketplace.
 - **Best for:** Organizations, intranets, non-profits, and educational institutes seeking a social collaboration network.
 
 ### 8. bbs-go 📱
-[![GitHub stars](https://img.shields.io/github/stars/mlogclub/bbs-go?style=social&color=white)](https://github.com/mlogclub/bbs-go/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/mlogclub/bbs-go?style=social&color=white)](https://github.com/mlogclub/bbs-go/stargazers)
 - **Repository:** [mlogclub/bbs-go](https://github.com/mlogclub/bbs-go)
 - **Stack:** Go / Vue.js / Nuxt.js / MySQL | **License:** Apache-2.0
 - **Overview:** A modern, high-performance community forum and Q&A system built with Go and Vue/Nuxt. Includes responsive mobile web views, full markdown support, tag management, and fast indexing.
 - **Best for:** High-concurrency community sites and developer groups wanting a Go-backed discussion backend.
 
 ### 9. FlaskBB 🐍
-[![GitHub stars](https://img.shields.io/github/stars/flaskbb/flaskbb?style=social&color=white)](https://github.com/flaskbb/flaskbb/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/flaskbb/flaskbb?style=social&color=white)](https://github.com/flaskbb/flaskbb/stargazers)
 - **Repository:** [flaskbb/flaskbb](https://github.com/flaskbb/flaskbb)
 - **Stack:** Python / Flask / SQLAlchemy / PostgreSQL / MySQL | **License:** BSD-3-Clause
 - **Overview:** A classic bulletin board application built on Python's Flask framework. Offers traditional forum hierarchies, private messaging, user permissions, customizable themes, and a clean plugin architecture.
 - **Best for:** Python developers and hobbyist communities desiring a clean, modular Python-powered bulletin board.
 
 ### 10. phpBB 📜
-[![GitHub stars](https://img.shields.io/github/stars/phpbb/phpbb?style=social&color=white)](https://github.com/phpbb/phpbb/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/phpbb/phpbb?style=social&color=white)](https://github.com/phpbb/phpbb/stargazers)
 - **Repository:** [phpbb/phpbb](https://github.com/phpbb/phpbb)
 - **Stack:** PHP / MySQL / MariaDB / PostgreSQL / SQLite | **License:** GPL-2.0
 - **Overview:** The most battle-tested open-source bulletin board package on the web. Features extensive permission hierarchies, private messaging, customizable styles, LDAP/OAuth SSO authentication, and thousands of community mods.
 - **Best for:** Communities requiring an established, proven forum engine with lightweight shared-hosting requirements.
 
 ### 11. MyBB 🛠️
-[![GitHub stars](https://img.shields.io/github/stars/mybb/mybb?style=social&color=white)](https://github.com/mybb/mybb/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/mybb/mybb?style=social&color=white)](https://github.com/mybb/mybb/stargazers)
 - **Repository:** [mybb/mybb](https://github.com/mybb/mybb)
 - **Stack:** PHP / MySQL / PostgreSQL / SQLite | **License:** LGPL-3.0
 - **Overview:** A popular, user-friendly bulletin board engine featuring threaded and flat discussions, inline moderation, custom profile fields, reputation systems, and an accessible template engine.
 - **Best for:** Traditional webmasters seeking an easy-to-manage, customizable community forum.
 
 ### 12. Simple Machines Forum (SMF) ⚙️
-[![GitHub stars](https://img.shields.io/github/stars/SimpleMachines/SMF?style=social&color=white)](https://github.com/SimpleMachines/SMF/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/SimpleMachines/SMF?style=social&color=white)](https://github.com/SimpleMachines/SMF/stargazers)
 - **Repository:** [SimpleMachines/SMF](https://github.com/SimpleMachines/SMF)
 - **Stack:** PHP / MySQL / PostgreSQL | **License:** BSD-3-Clause
 - **Overview:** A professional-grade, permissive open-source forum package engineered for high performance, low database footprint, and complete administrative control.
@@ -188,7 +188,7 @@ Contributions are warmly welcomed! If you know of an outstanding open-source Onl
 
 1. 🍴 Fork this repository.
 2. 🌿 Create a new feature branch (`git checkout -b feature/add-new-platform`).
-3. 📝 Add your project with description, GitHub stars badge, stack, license, and primary use case.
+3. 📝 Add your project with description, GitHub_Stars_Badge, stack, license, and primary use case.
 4. 🚀 Submit a well-described Pull Request!
 
 Please ensure the project is actively maintained and genuinely open-source.
