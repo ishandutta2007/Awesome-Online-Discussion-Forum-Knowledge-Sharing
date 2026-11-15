@@ -1,34 +1,58 @@
-# Awesome-Online-Discussion-Forum-Knowledge-Sharing
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Online Discussion Forum & Knowledge Sharing" width="100%" />
+</p>
 
-# Awesome Online Discussion Forum & Knowledge Sharing
+<h1 align="center">Awesome Online Discussion Forum & Knowledge Sharing 💬✨</h1>
 
-> A curated list of top Online Discussion Forum and Knowledge Sharing platforms — both SaaS/Hosted commercial solutions and open-source alternatives for building communities, Q&A sites, and knowledge bases.
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing?style=flat-square&color=blue" alt="GitHub issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🌟 **A curated list of top Online Discussion Forum and Knowledge Sharing platforms** — featuring both enterprise SaaS/Hosted commercial solutions and top open-source self-hosted alternatives for building developer communities, Q&A help centers, and social knowledge bases.
+> 
+> 🚀 Star this repo if you find it helpful for your community architecture! 🌟
 
 ---
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-  - [Discourse](#discourse)
-  - [Apache Answer](#apache-answer)
-  - [Flarum](#flarum)
-  - [NodeBB](#nodebb)
-  - [phpBB](#phpbb)
-  - [vBulletin](#vbulletin)
-  - [Simple Machines Forum](#simple-machines-forum)
-  - [MyBB](#mybb)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [Discourse](#1-discourse-)
+  - [Forem](#2-forem-)
+  - [Flarum](#3-flarum-)
+  - [Apache Answer](#4-apache-answer-)
+  - [NodeBB](#5-nodebb-)
+  - [Lemmy](#6-lemmy-)
+  - [HumHub](#7-humhub-)
+  - [bbs-go](#8-bbs-go-)
+  - [FlaskBB](#9-flaskbb-)
+  - [phpBB](#10-phpbb-)
+  - [MyBB](#11-mybb-)
+  - [Simple Machines Forum (SMF)](#12-simple-machines-forum-smf-)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [📄 License](#-license)
 
 ---
 
 ## 🌐 Sector Overview & Market Dynamics
 
-The global online community and discussion forum software market is valued at approximately **$2.5B–$4.5B** and is projected to expand beyond **$8B–$10B+** over the next decade at a CAGR of 12%–13.5%. The market is **moderately fragmented**: enterprise CRM suites (e.g., Salesforce, Khoros) consolidate large-scale enterprise customer communities, while mid-market platforms, creator communities, and open-source self-hosted solutions (e.g., Discourse, phpBB) maintain a substantial and diverse long-tail share.
+The global online community and discussion forum software market is currently valued between **$2.5B–$4.5B** and projected to expand beyond **$8B–$10B+** over the next decade at a compound annual growth rate (CAGR) of 12%–13.5%. 
+
+The market exhibits **moderate fragmentation**:
+- **Enterprise CRM & CX Suites:** Large enterprise giants (e.g., Khoros, Salesforce Experience Cloud) command high-value annual contracts for Fortune 500 brand communities and support centers.
+- **Mid-Market & Creator Platforms:** Specialized SaaS providers (e.g., Bettermode, Vanilla Forums) deliver turnkey modern community and Q&A tools with headless APIs and CRM integrations.
+- **Vibrant Open-Source Long-Tail:** Modern self-hosted engines (e.g., Discourse, Apache Answer, Flarum, NodeBB) and decentralized federated platforms (e.g., Lemmy) power millions of active independent communities, ensuring extensive developer flexibility without vendor lock-in.
 
 ---
 
@@ -36,7 +60,7 @@ The global online community and discussion forum software market is valued at ap
 
 Commercial, cloud-hosted Online Discussion Forum and Knowledge Sharing platforms. Sorted descending by company scale (revenue / valuation):
 
-| Product | Company Valuation / Revenue | Starting Pricing | Free Tier / Trial Limit | Key Focus & Features |
+| 🏢 Product | 💰 Company Valuation / Revenue | 🏷️ Starting Pricing | 🎁 Free Tier / Trial Limit | ⚡ Key Focus & Highlights |
 |:---|:---|:---|:---|:---|
 | **Zoho Discussions (Zoho Community / Connect)** | **$12.5B valuation** (est.) / **~$1.5B annual revenue** (FY25, ₹12,313 Cr) | **$14/agent/month** (Zoho Desk Standard, billed annually, unlocks community forums) / **$1/user/month** (Zoho Connect internal) | **Free tier available forever**: Free for up to 5 users, 3 groups, and 3 custom apps/boards (Zoho Connect) / 3 agents (Zoho Desk, basic) | Part of the Zoho ecosystem; rich text editor, SEO, SSO integration, spam filtering, and migration from vBulletin/phpBB. |
 | **Khoros Communities** | **$1B–$1.5B valuation** (Vista Equity buyout) / **~$250M–$285M annual revenue** | **$4,166/month** (contracts typically start at **$50,000/year**) | **No free tier; no public free trial** (Evaluation strictly via scheduled enterprise sales demo) | Enterprise-grade digital customer community, social media management, and care platform for Fortune 500 brands. |
@@ -47,86 +71,152 @@ Commercial, cloud-hosted Online Discussion Forum and Knowledge Sharing platforms
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Online Discussion Forum and Knowledge Sharing tools. The open-source ecosystem spans **modern community platforms**, **Apache-governed Q&A systems**, **lightweight modern forums**, and **long-standing PHP forums**.
+Self-hosted, community-driven Online Discussion Forum and Knowledge Sharing tools. Ranked in **descending order by GitHub stargazers count** ⭐:
 
-### Discourse
-**Stack:** Ruby on Rails / PostgreSQL / Redis | **License:** GPL
-Discourse is the leading modern open-source forum platform, designed for **durable, searchable discussion** rather than ephemeral chat . It organizes posts into topics and categories, with real-time side-by-side preview, full WYSIWYG editing, OAuth2 and custom SSO support, and full export/portability [citation:10]. It is the open-source reference point for communities that outgrow simple group chat, and is frequently compared alongside Flarum and NodeBB. It requires a standard Ruby on Rails deployment stack with PostgreSQL and Redis.
-**Best for:** Organizations wanting a proven, feature-rich community platform with strong moderation tools and a mature ecosystem, accepting the Rails deployment overhead.
+### 1. Discourse 💬
+[![GitHub stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers)
+- **Repository:** [discourse/discourse](https://github.com/discourse/discourse)
+- **Stack:** Ruby on Rails / PostgreSQL / Redis / Ember.js | **License:** GPL-2.0-or-later
+- **Overview:** Discourse is the gold standard for modern open-source community discussion platforms. Designed for durable, searchable, high-signal conversations with infinite scrolling, real-time notifications, dynamic trust levels, rich markdown/WYSIWYG editing, OAuth2/custom SSO, and comprehensive APIs.
+- **Best for:** Professional communities, developer ecosystems, and enterprises seeking a battle-tested, highly extensible discussion platform.
 
-### Apache Answer
-**Stack:** Go / React / Docker | **License:** Apache-2.0
-Apache Answer is an Apache-governed **Q&A platform software** for teams of any scale, suitable for community forums, help centers, or knowledge management platforms [citation:4]. It runs via a single Docker command (`docker run -d -p 9080:80 -v answer-data:/data --name answer apache/answer:1.4.5`) and provides a plugin system for extending features . It is positioned as a lightweight, Apache-licensed alternative to proprietary Q&A platforms like AnswerHub, with no licensing restrictions.
-**Best for:** Teams wanting a straightforward, Apache-licensed Q&A platform with Docker deployment and plugin extensibility, particularly those in the Apache ecosystem.
+### 2. Forem 🌐
+[![GitHub stars](https://img.shields.io/github/stars/forem/forem?style=social&color=white)](https://github.com/forem/forem/stargazers)
+- **Repository:** [forem/forem](https://github.com/forem/forem)
+- **Stack:** Ruby on Rails / PostgreSQL / Redis / Preact | **License:** AGPL-3.0
+- **Overview:** The open-source software powering DEV.to and numerous global developer networks. Combines threaded discussion forums with rich article publishing, member feeds, podcasts, listings, and social community features in one unified hub.
+- **Best for:** Content-driven developer communities, collaborative blogging networks, and social knowledge hubs.
 
-### Flarum
-**Stack:** PHP / MySQL | **License:** MIT
-Flarum is a modern, lightweight open-source forum platform known for its clean design and fast performance. It is positioned as a simpler, more modern alternative to legacy forums like phpBB and vBulletin, with an extension ecosystem for adding features. It is not listed in the Wikipedia comparison table with the same level of detail as other platforms, but it is widely adopted among modern community builders .
-**Best for:** Small to mid-sized communities wanting a modern, fast forum with a clean interface, accepting a smaller feature set than Discourse.
+### 3. Flarum ⚡
+[![GitHub stars](https://img.shields.io/github/stars/flarum/flarum?style=social&color=white)](https://github.com/flarum/flarum/stargazers)
+- **Repository:** [flarum/flarum](https://github.com/flarum/flarum)
+- **Stack:** PHP / MySQL / Mithril.js | **License:** MIT
+- **Overview:** Flarum is a lightweight, mobile-first discussion platform with a modern, elegant two-pane interface. It features instant search, smooth infinite scrolling, floating composer windows, and an extensive modular extension architecture.
+- **Best for:** Small to mid-sized communities wanting a fast, aesthetically pleasing forum with minimal server overhead.
 
-### NodeBB
-**Stack:** Node.js / Redis / MongoDB | **License:** GPL-3.0
-NodeBB is a Node.js-based forum platform designed for real-time discussions, with WebSocket support for live updates. It is positioned for communities wanting a modern, real-time experience with a Node.js stack. It is commonly compared alongside Discourse and Flarum as a modern open-source forum option.
-**Best for:** Node.js-centric teams wanting a real-time forum with WebSocket support, accepting the Node.js/Redis/MongoDB stack.
+### 4. Apache Answer 💡
+[![GitHub stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers)
+- **Repository:** [apache/answer](https://github.com/apache/answer)
+- **Stack:** Go / React / Docker | **License:** Apache-2.0
+- **Overview:** An official Apache Software Foundation top-level project designed specifically for Q&A community platforms, help desks, and team knowledge bases. It features upvoting, reputation mechanics, badge gamification, tag categorization, and rapid one-command Docker deployments.
+- **Best for:** Teams and developer portals needing a lightweight, Apache-licensed Stack Overflow alternative for knowledge management.
 
-### phpBB
-**Stack:** PHP / MySQL/MariaDB/PostgreSQL/SQLite | **License:** GPL
-phpBB is the most widely deployed open-source forum platform, with a long history and massive community. It provides flat forums, user-selectable themes, WYSIWYG editor, LDAP and OAuth SSO, and full export/portability [citation:10]. It is the benchmark for traditional forum software, with an extensive extension and style ecosystem. **Trade-off:** The interface feels dated compared to modern platforms like Discourse and Flarum, and performance can degrade at scale without optimization.
-**Best for:** Communities wanting a proven, battle-tested forum with a massive ecosystem and low hosting requirements, accepting a dated UI.
+### 5. NodeBB 🚀
+[![GitHub stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers)
+- **Repository:** [NodeBB/NodeBB](https://github.com/NodeBB/NodeBB)
+- **Stack:** Node.js / Redis / MongoDB / Socket.io | **License:** GPL-3.0
+- **Overview:** NodeBB leverages WebSockets for real-time interactions, offering streaming discussions, instant live notifications, built-in chat, social sharing, and an active ecosystem of themes and plugins.
+- **Best for:** Node.js-centric teams seeking a reactive, real-time community forum with seamless API integration.
 
-### vBulletin
-**Stack:** PHP / MySQL/MariaDB | **License:** Proprietary
-vBulletin is a long-standing proprietary forum platform, with the latest release (6.2.0) in March 2026 [citation:10]. It is positioned for large communities willing to pay for a commercial license, with features including threaded discussions, user-selectable themes, and SSO support. **Trade-off:** It is proprietary, unlike the other platforms in this section, and its market position has declined against modern alternatives.
-**Best for:** Organizations wanting a commercial forum platform with a long track record, accepting the proprietary licensing model.
+### 6. Lemmy 🪐
+[![GitHub stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers)
+- **Repository:** [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy)
+- **Stack:** Rust / Actix / PostgreSQL / WebAssembly | **License:** AGPL-3.0
+- **Overview:** A federated, link-aggregating discussion platform for the ActivityPub fediverse (a decentralized alternative to Reddit). Supports nested comments, voting, community moderation tools, and cross-server federation.
+- **Best for:** Decentralized, privacy-conscious communities and open-web link aggregator forums.
 
-### Simple Machines Forum
-**Stack:** PHP / MySQL/MariaDB/PostgreSQL | **License:** BSD
-Simple Machines Forum (SMF) is a free, professional-grade forum package for setting up online communities, with the latest release (2.1.8) in October 2026 [citation:10]. It provides flat forums, threaded discussions, WYSIWYG editor, and SSO support [citation:10]. It is positioned as a straightforward, BSD-licensed alternative to phpBB and vBulletin.
-**Best for:** Communities wanting a permissive BSD-licensed forum with active maintenance, accepting a smaller ecosystem than phpBB.
+### 7. HumHub 👥
+[![GitHub stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers)
+- **Repository:** [humhub/humhub](https://github.com/humhub/humhub)
+- **Stack:** PHP (Yii 2) / MySQL / MariaDB | **License:** AGPL-3.0
+- **Overview:** A flexible social network and community kit providing discussion streams, user spaces, knowledge wikis, file sharing, calendar scheduling, and an internal module marketplace.
+- **Best for:** Organizations, intranets, non-profits, and educational institutes seeking a social collaboration network.
 
-### MyBB
-**Stack:** PHP / MySQL | **License:** LGPL
-MyBB is a free, open-source forum platform with a focus on ease of use and extensibility. It provides flat and threaded discussions, user-selectable themes, WYSIWYG editor, and SSO support [citation:10]. It is positioned for communities wanting a straightforward forum with a gentler learning curve than phpBB.
-**Best for:** Communities wanting an accessible, LGPL-licensed forum with a straightforward setup, accepting a smaller ecosystem than the largest platforms.
+### 8. bbs-go 📱
+[![GitHub stars](https://img.shields.io/github/stars/mlogclub/bbs-go?style=social&color=white)](https://github.com/mlogclub/bbs-go/stargazers)
+- **Repository:** [mlogclub/bbs-go](https://github.com/mlogclub/bbs-go)
+- **Stack:** Go / Vue.js / Nuxt.js / MySQL | **License:** Apache-2.0
+- **Overview:** A modern, high-performance community forum and Q&A system built with Go and Vue/Nuxt. Includes responsive mobile web views, full markdown support, tag management, and fast indexing.
+- **Best for:** High-concurrency community sites and developer groups wanting a Go-backed discussion backend.
+
+### 9. FlaskBB 🐍
+[![GitHub stars](https://img.shields.io/github/stars/flaskbb/flaskbb?style=social&color=white)](https://github.com/flaskbb/flaskbb/stargazers)
+- **Repository:** [flaskbb/flaskbb](https://github.com/flaskbb/flaskbb)
+- **Stack:** Python / Flask / SQLAlchemy / PostgreSQL / MySQL | **License:** BSD-3-Clause
+- **Overview:** A classic bulletin board application built on Python's Flask framework. Offers traditional forum hierarchies, private messaging, user permissions, customizable themes, and a clean plugin architecture.
+- **Best for:** Python developers and hobbyist communities desiring a clean, modular Python-powered bulletin board.
+
+### 10. phpBB 📜
+[![GitHub stars](https://img.shields.io/github/stars/phpbb/phpbb?style=social&color=white)](https://github.com/phpbb/phpbb/stargazers)
+- **Repository:** [phpbb/phpbb](https://github.com/phpbb/phpbb)
+- **Stack:** PHP / MySQL / MariaDB / PostgreSQL / SQLite | **License:** GPL-2.0
+- **Overview:** The most battle-tested open-source bulletin board package on the web. Features extensive permission hierarchies, private messaging, customizable styles, LDAP/OAuth SSO authentication, and thousands of community mods.
+- **Best for:** Communities requiring an established, proven forum engine with lightweight shared-hosting requirements.
+
+### 11. MyBB 🛠️
+[![GitHub stars](https://img.shields.io/github/stars/mybb/mybb?style=social&color=white)](https://github.com/mybb/mybb/stargazers)
+- **Repository:** [mybb/mybb](https://github.com/mybb/mybb)
+- **Stack:** PHP / MySQL / PostgreSQL / SQLite | **License:** LGPL-3.0
+- **Overview:** A popular, user-friendly bulletin board engine featuring threaded and flat discussions, inline moderation, custom profile fields, reputation systems, and an accessible template engine.
+- **Best for:** Traditional webmasters seeking an easy-to-manage, customizable community forum.
+
+### 12. Simple Machines Forum (SMF) ⚙️
+[![GitHub stars](https://img.shields.io/github/stars/SimpleMachines/SMF?style=social&color=white)](https://github.com/SimpleMachines/SMF/stargazers)
+- **Repository:** [SimpleMachines/SMF](https://github.com/SimpleMachines/SMF)
+- **Stack:** PHP / MySQL / PostgreSQL | **License:** BSD-3-Clause
+- **Overview:** A professional-grade, permissive open-source forum package engineered for high performance, low database footprint, and complete administrative control.
+- **Best for:** Forum administrators who prefer a permissive BSD license, high stability, and low resource overhead.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Q&A Support | SSO | Self-Hosted | Best For |
-|----------|---------|-------|-------------|-----|-------------|----------|
-| **Zoho Discussions** | Proprietary | Cloud | (Forum) | ✅ | ❌ | Zoho ecosystem integration |
-| **Bettermode** | Proprietary | Cloud | ✅ | ✅ | ❌ | Modern community + AI |
-| **Vanilla Forums** | Proprietary | Cloud | ✅ | ✅ | ❌ | Enterprise community |
-| **Discourse** | GPL | Ruby/Rails | ✅ | ✅ OAuth2 | ✅ | Proven modern community |
-| **Apache Answer** | Apache-2.0 | Go/React/Docker | ✅ Q&A-focused | (Check) | ✅ | Apache-licensed Q&A |
-| **Flarum** | MIT | PHP/MySQL | (Forum) | (Extensions) | ✅ | Lightweight modern forum |
-| **NodeBB** | GPL-3.0 | Node.js | (Forum) | (Check) | ✅ | Real-time Node.js forum |
-| **phpBB** | GPL | PHP/DB | (Forum) | ✅ LDAP/OAuth | ✅ | Proven legacy forum |
-| **vBulletin** | Proprietary | PHP/MySQL | (Forum) | ✅ | ✅ | Commercial legacy forum |
-| **SMF** | BSD | PHP/DB | (Forum) | ✅ | ✅ | Permissive BSD forum |
+| 🛠️ Software | 📜 License | 💻 Stack | 💡 Q&A Focus | 🔐 SSO Support | 🏠 Self-Hosted | 🎯 Best For |
+|:---|:---|:---|:---:|:---:|:---:|:---|
+| **Discourse** | GPL-2.0 | Ruby / PostgreSQL / Redis | ✅ | ✅ OAuth2 / SAML | ✅ | Scaled modern communities & brands |
+| **Forem** | AGPL-3.0 | Ruby / PostgreSQL / Preact | ✅ | ✅ OAuth | ✅ | Content publishing + dev communities |
+| **Flarum** | MIT | PHP / MySQL | (Forum) | (Extensions) | ✅ | Lightweight, modern minimalist forums |
+| **Apache Answer** | Apache-2.0 | Go / React / Docker | ✅ Primary | ✅ OAuth / Plugins | ✅ | Knowledge bases & Q&A help desks |
+| **NodeBB** | GPL-3.0 | Node.js / Redis / Mongo | (Forum) | ✅ OAuth / Plugins | ✅ | Real-time reactive WebSockets forums |
+| **Lemmy** | AGPL-3.0 | Rust / PostgreSQL | (Federated) | (ActivityPub) | ✅ | Federated link-aggregation & discussions |
+| **HumHub** | AGPL-3.0 | PHP / MySQL | ✅ | ✅ LDAP / SAML | ✅ | Social intranet & team collaboration |
+| **bbs-go** | Apache-2.0 | Go / Vue.js | ✅ | (OAuth) | ✅ | High-performance Go-backed forums |
+| **FlaskBB** | BSD-3-Clause | Python / Flask | (Forum) | (Plugins) | ✅ | Python community bulletin boards |
+| **phpBB** | GPL-2.0 | PHP / MySQL / SQLite | (Forum) | ✅ LDAP / OAuth | ✅ | Proven classic forums on shared hosting |
+| **MyBB** | LGPL-3.0 | PHP / MySQL | (Forum) | ✅ | ✅ | Traditional bulletin boards with easy setup |
+| **SMF** | BSD-3-Clause | PHP / MySQL | (Forum) | ✅ | ✅ | Permissive BSD-licensed lightweight forums |
+| **Zoho Discussions** | Proprietary | Cloud SaaS | (Forum) | ✅ | ❌ | Teams embedded in Zoho ecosystem |
+| **Bettermode** | Proprietary | Cloud SaaS | ✅ | ✅ | ❌ | Turnkey modern community + AI features |
+| **Vanilla Forums** | Proprietary | Cloud SaaS | ✅ | ✅ | ❌ | Enterprise corporate communities |
+| **Khoros** | Proprietary | Cloud SaaS | ✅ | ✅ | ❌ | Global Fortune 500 CX & customer support |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Online Discussion Forum or Knowledge Sharing tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! If you know of an outstanding open-source Online Discussion Forum, Q&A, or Knowledge Sharing tool that should be listed here:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. 🍴 Fork this repository.
+2. 🌿 Create a new feature branch (`git checkout -b feature/add-new-platform`).
+3. 📝 Add your project with description, GitHub stars badge, stack, license, and primary use case.
+4. 🚀 Submit a well-described Pull Request!
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
+Please ensure the project is actively maintained and genuinely open-source.
 
-**Note on the open-source ecosystem:** The forum landscape splits between **modern community platforms** (Discourse, with the strongest feature set and ecosystem; Flarum and NodeBB offering lighter modern alternatives) and **Apache-governed Q&A systems** (Apache Answer, purpose-built for Q&A rather than general discussion). **Discourse** remains the dominant open-source choice for serious community building, with full SSO, real-time preview, and export portability [citation:10]. **Apache Answer** is the strongest choice for teams wanting a focused Q&A platform under a permissive Apache-2.0 license with simple Docker deployment [citation:4]. Legacy platforms like phpBB and SMF remain viable for communities that value stability and low hosting costs over modern UI, while vBulletin's proprietary model has lost ground to open-source alternatives.
+---
+
+## 💖 Support
+
+If this curated repository helped you discover the right discussion forum or knowledge sharing solution for your project, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** it with fellow developers and community builders.
+- ☕ **Buy me a coffee / Sponsor the project:** Support ongoing open-source curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Online-Discussion-Forum-Knowledge-Sharing&type=date&legend=top-left)
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This compilation is released under [CC0 1.0 Universal (Public Domain Dedication)](https://creativecommons.org/publicdomain/zero/1.0/). The individual software projects listed retain their respective licenses and trademarks.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  <b>⭐ Star this repo if you found it useful! ⭐</b>
+</p>
