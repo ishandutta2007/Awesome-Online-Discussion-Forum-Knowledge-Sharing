@@ -9,11 +9,8 @@
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Zoho Discussions](#zoho-discussions)
-  - [Bettermode](#bettermode)
-  - [Vanilla Forums](#vanilla-forums)
-  - [Khoros](#khoros)
 - [Open-Source Software](#-open-source-software)
   - [Discourse](#discourse)
   - [Apache Answer](#apache-answer)
@@ -23,31 +20,28 @@
   - [vBulletin](#vbulletin)
   - [Simple Machines Forum](#simple-machines-forum)
   - [MyBB](#mybb)
+- [Comparison at a Glance](#-comparison-at-a-glance)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global online community and discussion forum software market is valued at approximately **$2.5B–$4.5B** and is projected to expand beyond **$8B–$10B+** over the next decade at a CAGR of 12%–13.5%. The market is **moderately fragmented**: enterprise CRM suites (e.g., Salesforce, Khoros) consolidate large-scale enterprise customer communities, while mid-market platforms, creator communities, and open-source self-hosted solutions (e.g., Discourse, phpBB) maintain a substantial and diverse long-tail share.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Online Discussion Forum and Knowledge Sharing platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Online Discussion Forum and Knowledge Sharing platforms. Sorted descending by company scale (revenue / valuation):
 
-### Zoho Discussions
-**Type:** Online forum software within the Zoho ecosystem
-Zoho Discussions is an online forum software that helps create external and internal communication for problem-solving, topic discussion, and idea exchange . It offers a rich text editor, advanced search, SEO options, and extensive rebranding tools to align the community with your brand identity . It supports SSO integration to preserve existing login mechanisms and migration from vBulletin, phpBB, and Google Groups . The platform includes a built-in anti-spam engine and multi-language support (14+ languages). **Note:** The Chrome Web Store listing shows the extension was last updated in 2014, so verify current feature development status . Zoho Connect pricing starts at ¥7/user/month for the Enterprise plan (25-user minimum) and ¥21/user/month for the Flagship plan, with a free plan for up to 25 users [citation:5].
-**Best for:** Organizations already using Zoho products wanting integrated forum capabilities with SSO and migration support.
-
-### Bettermode
-**Type:** Modern community platform with AI and extensive integrations
-Bettermode is a modern community platform positioned for marketing and customer success teams to drive engagement, retention, and revenue . It offers discussion forums, Q&A, knowledge base capabilities, gamification, a drag-and-drop layout editor, analytics, and moderation tools [citation:7]. The platform is SOC 2 Type II compliant, supports GDPR and CCPA, and offers US/EU data residency . It includes AI spam detection, federated search, MCP (AI connector), and integrations with Salesforce, HubSpot, Intercom, Segment, and others [citation:6]. Pricing starts at **$149/month** [citation:7].
-**Best for:** Mid-market to enterprise organizations wanting a polished, modern community platform with strong integrations and AI features.
-
-### Vanilla Forums
-**Type:** Enterprise community platform with knowledge base
-Vanilla Forums provides discussion forums, Q&A, knowledge base, gamification, drag-and-drop layout editor, analytics, and moderation tools . The Enterprise tier adds SSO, advanced security, custom integrations, AI-powered features, dedicated support, and SLA agreements [citation:7]. **Pricing:** Vanilla uses custom pricing; third-party estimates place the Standard plan at **$599/month** for up to 1,000 users, with implementation costs of $2,000–$10,000 and potential hidden fees for customization and training [citation:13]. The Professional plan is estimated at $1,499/month [citation:13]. **No free plan is available**; prospective users must go through an enterprise sales process [citation:7].
-**Best for:** Established organizations with complex community needs and a substantial budget, accepting the enterprise sales process.
-
-### Khoros
-**Type:** Enterprise community and social media management platform
-Khoros provides enterprise-grade community forums, social media management, and care capabilities. It is positioned for large brands managing customer communities at scale, with pricing that reflects its enterprise focus.
+| Product | Company Valuation / Revenue | Starting Pricing | Free Tier / Trial Limit | Key Focus & Features |
+|:---|:---|:---|:---|:---|
+| **Zoho Discussions (Zoho Community / Connect)** | **$12.5B valuation** (est.) / **~$1.5B annual revenue** (FY25, ₹12,313 Cr) | **$14/agent/month** (Zoho Desk Standard, billed annually, unlocks community forums) / **$1/user/month** (Zoho Connect internal) | **Free tier available forever**: Free for up to 5 users, 3 groups, and 3 custom apps/boards (Zoho Connect) / 3 agents (Zoho Desk, basic) | Part of the Zoho ecosystem; rich text editor, SEO, SSO integration, spam filtering, and migration from vBulletin/phpBB. |
+| **Khoros Communities** | **$1B–$1.5B valuation** (Vista Equity buyout) / **~$250M–$285M annual revenue** | **$4,166/month** (contracts typically start at **$50,000/year**) | **No free tier; no public free trial** (Evaluation strictly via scheduled enterprise sales demo) | Enterprise-grade digital customer community, social media management, and care platform for Fortune 500 brands. |
+| **Vanilla Forums (Higher Logic Vanilla)** | **$185M+ total capital raised** / **~$80M+ recurring revenue** (Higher Logic parent) | **$599/month** (Standard package; annualized contracts start at **$24,000/year**) | **No free tier; no self-serve free trial** (Available through scheduled sales demo and trial upon approval) | Enterprise customer community and knowledge base software with Q&A, gamification, and deep CRM/SSO integrations. |
+| **Bettermode** | **$7.5M Seed funding** (backed by Bessemer & CRV) / **~$3.1M ARR** | **$149/month** (Starter tier billed annually, up to 10,000 members) | **14-day free trial** with full Starter/Growth features (no credit card required); no forever-free tier | Modern community platform featuring discussion forums, Q&A, AI spam filtering, federated search, and modular integrations. |
 
 ---
 
